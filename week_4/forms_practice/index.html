@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Forms Practice</title>
+
+  <style>
+  
+    #namefield {
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #d9d9d9;
+      padding: 10px;
+      background-color: #f2f2f2;
+      font-size: 24px;
+      color: #808080;  
+    }
+    
+    #namefield:hover {
+      opacity: 0.5;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+
+  <form>
+
+    <p>Name: <input id="namefield" type="text" value="" placeholder="Full Name"></p>
+
+    <label for="single">Single:</label>
+    <input type="radio" id="single" value="single" name="marital_status"> <br>
+    
+    <label for="married">Married:</label>
+    <input type="radio" id="married" value="married" name="marital_status"> <br>
+
+    <label for="divorced">Divorced:</label>
+    <input type="radio" id="divorced" value="divorced" name="marital_status"> <br>
+
+    <label for="decline">Decline to Say:</label>
+    <input type="radio" id="decline" value="decline" name="marital_status"> <br>
+    
+    <input type="password"> <br>
+    <input type="number"> <br>
+    <input type="search"> <br>
+    <input type="submit"> <br>
+    <input type="reset"> <br>
+    
+    <label for="avocado">Avocado Toast</label>
+    <input type="checkbox" id="avocado" value="avocado" name="avocado">
+    <label for="bagel">Bagel w/ Lox</label>
+    <input type="checkbox" id="bagel" value="bagel" name="bagel">
+    <label for="smoothie">Smoothie</label>
+    <input type="checkbox" id="smoothie" value="smoothie" name="smoothie"> <br>
+    
+    <textarea cols="40" rows="10"></textarea> <br> <br>
+    
+    <label>Where are you from?</label>
+      <select name="regions">
+        <option>Choose One</option>
+        <optgroup label="Americas">
+          <option>North America</option>
+          <option>South America</option>
+        </optgroup>
+        <optgroup label="Eurasia">
+          <option>Europe</option>
+          <option>Asia</option>
+        </optgroup>
+        <option>Africa</option>
+        <option>Australia</option>
+        <option>Antartica</option>
+      </select> <br> <br>
+    
+    <button>Press Here</button> <br>
+    
+
+  </form>
+
+</body>
+
+</html>

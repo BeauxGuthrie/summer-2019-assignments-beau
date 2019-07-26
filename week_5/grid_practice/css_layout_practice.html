@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Layout Practice</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+    /* Grid Styles */
+    #grid {
+      display: grid;
+      width: 500px;
+      height: 250px;
+      grid-template-columns: 1fr 1fr 1fr;
+      border: 1px solid #000;
+    }
+
+    #grid>div {}
+
+    #longer {
+      border: 1px solid #000;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background-color: #bfbfbf;
+      margin-top: -1px;
+      margin-left: -1px;
+    }
+
+    /* Flex Styles */
+
+    #flex {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      width: 500px;
+      height: 250px;
+      /* update later */
+      border: 1px solid #000;
+      
+    }
+
+    #flex > div {
+/*      border: 1px dashed #000;*/
+      flex-grow: 1;
+      width: 164px;
+    }
+
+    #first {
+      width: 328px !important;
+      border: 1px solid #000;
+      margin-top: -1px;
+      margin-left: -1px;
+      background-color: #b3d9ff;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- GRID VERSION -->
+  <h1>Grid Version of Warmup</h1>
+  <div id="grid">
+    <div id="longer"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- FLEX VERSION -->
+  <h1>Flex Version of Warmup</h1>
+  <div id="flex">
+    <div id="first"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+</body>
+
+</html>

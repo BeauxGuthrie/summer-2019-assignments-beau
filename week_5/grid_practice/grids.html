@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Grid Practice</title>
+
+  <style>
+  
+    #container {
+      display: grid;
+      border: 2px solid #000;
+/*      grid-template-columns: 1fr 1fr 1fr;*/
+      grid-template-columns: 2fr 2fr 2fr 1fr;
+    }
+    
+    #container > div {
+      font-size: 72px;
+      border: 1px solid #ff1a1a;
+      text-align: center;
+      margin: 2px;
+    }
+    
+    #six {
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+    
+    #seven {
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  
+  <div id="container">
+    <div>1</div>
+    <div>2</div> 
+    <div>3</div> 
+    <div>4</div> 
+    <div>5</div> 
+    <div id="six">6</div>
+    <div id="seven">7</div> 
+  </div>
+    
+
+</body>
+</html>

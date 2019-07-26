@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Grid Practice</title>
+
+  <style>
+  
+    #container {
+      display: grid;
+/*      border: 2px solid #000;*/
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+    }
+    
+    #container > div {
+      font-size: 72px;
+      border: 1px solid #bf8040;
+      text-align: center;
+    }
+    
+    .donut {
+      background-color: #bf8040;
+    }
+    
+    #donut_hole {
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    
+    #top_left {
+      border-radius: 100% 0 0 0;
+    }
+    
+    #top_right {
+      border-radius: 0 100% 0 0;
+    }
+    
+    #bottom_left {
+      border-radius: 0 0 0 100%;
+    }
+    
+    #bottom_right {
+      border-radius: 0 0 100% 0;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  
+  <div id="container">
+    <div id="top_left" class="donut"></div>
+    <div class="donut"></div> 
+    <div id="top_right" class="donut"></div> 
+    <div class="donut"></div> 
+    <div id="donut_hole"></div> 
+    <div class="donut"></div>
+    <div id="bottom_left" class="donut"></div>
+    <div class="donut"></div>
+    <div id="bottom_right" class="donut"></div>
+  </div>
+    
+
+</body>
+</html>

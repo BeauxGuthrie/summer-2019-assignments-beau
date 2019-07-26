@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Practice</title>
+  <style>
+  
+    body {
+      background-image: url(images/background_image.jpg);
+      background-size: cover;
+      border: 1px dotted #ff0000;
+    }
+    
+    #playground {
+      width: 600px;
+      height: 600px;
+      border: 5px solid #ccc;
+      background-color: #ffffe6;
+      margin: 0 auto;
+      border-radius: 5px;
+      z-index: 1;
+    }
+    
+    #red, #green, #blue {
+      width: 200px;
+      height: 200px;
+      border-radius: 5px;
+      position: relative;
+      box-sizing: border-box;
+    }
+    
+    #red {
+      border: 5px solid #e60000; 
+      background-color: #ffb3b3;
+      margin-top: -400px;
+      left: 250px;
+      top: 300px;
+      z-index: 4;
+    }
+    
+    #green {
+      border: 5px solid #2eb82e; 
+      background-color: #adebad;
+      left: 200px;
+      top: 200px;
+      z-index: 3;
+    }
+    
+    #blue {
+      border: 5px solid #0066cc; 
+      background-color: #cce6ff;
+      margin-top: -200px;
+      left: 100px;
+      top: 50px;
+      z-index: 2;
+    }
+    
+  </style>
+</head>
+
+<body>
+  
+  <div id="playground">
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="red"></div>
+  </div>
+  
+</body>
+
+</html>

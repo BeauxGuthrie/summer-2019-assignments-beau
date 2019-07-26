@@ -8,25 +8,19 @@ body {
 
 header {
     width: 700px;
-    border: 1px dashed #000000;
     margin: 0 auto;
-      background-color: #f2f2f2;
 }
 
 
 
 main {
     width: 700px;
-    border: 1px solid #000000;
     margin: 0 auto;
-    background-color: #f2f2f2;
 }
 
 footer {
     width: 700px;
-    border: 1px dotted #000000;
     margin: 0 auto;
-    background-color: #f2f2f2;
     
 }
 
@@ -46,6 +40,7 @@ ul {
 
 li {
     display: inline;
+    margin-right: 20px;
 }
 
 p, li, a {
@@ -60,6 +55,7 @@ a {
 #copyright {
     text-align: center;
     font-size: 15px;
+    color: #fff;
 }
 
 /* IMAGE STYLES */

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg3472"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="taqueria_logo.svg"
+   inkscape:export-filename="/Users/beaugwitka/Desktop/mission_techies/git_repositories/summer-2019-assignments-beau/week_5/taqueria_logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3474" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-200.71429"
+     inkscape:cy="291.42857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1253"
+     inkscape:window-height="755"
+     inkscape:window-x="78"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3518" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3477">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#e6e6e6"
+       id="path3480"
+       cx="377.14285"
+       cy="280.93362"
+       rx="154.28572"
+       ry="157.14285" />
+    <ellipse
+       style="fill:#e6e6e6"
+       id="path3482"
+       cx="382.85715"
+       cy="439.50504"
+       rx="100"
+       ry="132.85715" />
+    <ellipse
+       style="fill:#e6e6e6"
+       id="path3484"
+       cx="465.71426"
+       cy="393.79077"
+       rx="40"
+       ry="52.857143" />
+    <ellipse
+       style="fill:#e6e6e6"
+       id="path3484-2"
+       cx="297.14285"
+       cy="400.93362"
+       rx="40"
+       ry="52.857143" />
+    <ellipse
+       style="fill:#000000"
+       id="path3501"
+       cx="321.42856"
+       cy="338.07648"
+       rx="35.714287"
+       ry="37.142857" />
+    <ellipse
+       style="fill:#000000"
+       id="path3501-6"
+       cx="437.14285"
+       cy="338.07651"
+       rx="35.714287"
+       ry="37.142857"
+       inkscape:transform-center-x="-191.42857"
+       inkscape:transform-center-y="254.28571" />
+    <rect
+       style="fill:#000000"
+       id="rect3533"
+       width="120"
+       height="40"
+       x="325.71429"
+       y="466.64792" />
+    <ellipse
+       style="fill:#000000"
+       id="path3556"
+       cx="382.85715"
+       cy="406.64795"
+       rx="20"
+       ry="40" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.12875366px;line-height:125%;font-family:'Estrangelo Nisibin Outline';-inkscape-font-specification:'Estrangelo Nisibin Outline, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="174.52425"
+       y="112.31283"
+       id="text3558"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1138705,0.89777044)"
+       inkscape:transform-center-y="-45.714286"><tspan
+         sodipodi:role="line"
+         id="tspan3560"
+         x="174.52425"
+         y="112.31283">TAQUERIA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.48875145px;line-height:125%;font-family:'Estrangelo Nisibin Outline';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Estrangelo Nisibin Outline, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;"
+       x="186.24225"
+       y="697.0495"
+       id="text3562"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0892113,0.91809553)"><tspan
+         sodipodi:role="line"
+         id="tspan3564"
+         x="186.24225"
+         y="697.0495">  DE LOS </tspan><tspan
+         sodipodi:role="line"
+         x="186.24225"
+         y="786.40967"
+         id="tspan3566">MUERTOS</tspan></text>
+  </g>
+</svg>
